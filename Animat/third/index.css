@@ -1,0 +1,1 @@
+.container{display:flex;width:400px;height:150px;overflow:hidden}.imgg{width:200px;height:100%;overflow:hidden;transition:transform 1s}.Hello{text-align:center;width:200px;height:100%;font-size:80px;padding-top:25px;background-color:#bd1c1c}.container:hover{filter:grayscale(50%)}.container:hover .imgg{transform:scale(1.2)}
