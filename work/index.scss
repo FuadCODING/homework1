@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  background-color: rgba(230, 230, 230, 0.995);
+}
+ol {
+  list-style-type: none;
+}
+.container {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+}
+.sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  height: 85vh;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  min-width: 300px;
+  border: solid 1px #fff;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+
+}
+.listfor{display: flex;
+align-items: center;
+margin-left: 15px;
+  margin-top: 50px;
+  gap: 10px;
+}
+.logo {
+  height: 80px;
+  padding: 16px;
+}
+.main {
+  height: 88%;
+  position: relative;
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 1rem;
+  margin: 8px;
+}
+li:hover {
+  background-color: rgb(181, 63, 87);
+  color: white;
+  fill: rgb(255, 255, 255);
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 180px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(255, 255, 255);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.first1,
+.first2 {
+  text-align: right;
+}
+.first1 {
+  font-size: 18px;
+  padding-top: 25px;
+  padding-right: 40px;
+  color: grey;
+}
+.first2 {
+  font-size: 38px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.sec {
+  color: #adadadb8;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.secimg {
+  width: 15px;
+}
+.box1 {
+  position: relative;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  left: 20px;
+  top: -185px;
+  min-width: 100px;
+  min-height: 100px;
+
+  overflow: visible;
+}
+.money,
+.shop,
+.thirdicon,
+.bird {
+  padding-left: 25px;
+  padding-top: 20px;
+  width: 50px;
+  height: 50px;
+  right: 1295px;
+  top: 154px;
+  z-index: 10;
+  overflow: visible;
+}
+.firstcontent {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 20%;
+  margin-left: 3%;
+  margin-top: 5%;
+  gap: 65px;
+}
+.line {
+  width: 310px;
+  margin-left: 18px;
+  color: #fbf4f47f;
+}
+// @media (max-width: 1400px) {
+//   .firstcontent {
+//     flex-direction: column;
+//     flex-wrap: wrap;
+//     height: 600px;
+//   }
+// }
+.box2 {
+  position: relative;
+  background-color: rgb(176, 164, 3);
+  width: 100px;
+  height: 100px;
+  top: -185px;
+  left: 20px;
+  min-width: 100px;
+  min-height: 100px;
+}
+.box3 {
+  position: relative;
+  background-color: rgb(33, 5, 175);
+  width: 100px;
+  height: 100px;
+  top: -185px;
+  left: 20px;
+  min-width: 100px;
+  min-height: 100px;
+}
+.box4 {
+  position: relative;
+  background-color: rgb(181, 63, 87);
+  width: 100px;
+  height: 100px;
+  top: -185px;
+  left: 20px;
+  min-width: 100px;
+  min-height: 100px;
+}
+.seccontent {
+  display: flex;
+  height: 30%;
+  width: 95%;
+  margin-left: 3%;
+  gap: 1%;
+  margin-right: 3%;
+}
+.firstgraph,
+.secgraph,
+.thirdgraph {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  border: solid 1px #fff;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  align-items: start;
+}
+.graphfirst {
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin-left: 5%;
+}
+.graphsec {
+  font-size: 17px;
+  margin-left: 5%;
+}
+.graphimg {
+  width: 15px;
+  margin-left: 5%;
+}
+.graphflexer {
+  display: flex;
+  gap: 7px;
+  padding-top: 5px;
+  margin-top: 3%;
+  color: grey;
+  margin-left: 5%;
+}
+.graph1,
+.graph2,
+.graph3 {
+  height: 65%;
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+  bottom: 20px;
+  
+}
+.graph1 {
+  background-color: green;
+}
+.graph2 {
+  background-color: orange;
+}
+.graph3 {
+  background-color: blue;
+}
+.graph12 {
+  height: 90%;
+  width: 90%;
+  padding-left: 5%;
+}
+.graphline {
+  width: 400px;
+  margin-left: 18px;
+  color: rgba(251, 244, 244, 0.4980392157);
+  margin-top: 15px;
+}
+.thirdcontent {
+  display: flex;
+  // width: 100%;
+  // height: 100%;
+  // min-width: 100%;
+  // max-width: 100%;
+  margin-right: 3%;
+}
+.thirdcontentfirst {
+  width: 700px;
+  height: 360px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  margin-left: 50px;
+  margin-top: 50px;
+  min-width: 45%;
+  min-height: 30%;
+}
+.thirdcontentsec {
+  width: 45%;
+  height: 30%;
+  display: flex;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  margin-left: 50px;
+  margin-top: 50px;
+  min-width: 100%;
+  max-height: 100% ;
+  
+}
+.mainstat {
+  background-color: orange;
+  width: 93%;
+  height: 20%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  margin-left: 2%;
+  padding-left: 20px;
+  position: relative;
+  bottom: 10px;
+}
+.mainStatText {
+  gap: 12px;
+  display: flex;
+  align-items: last baseline;
+}
+.firststroke {
+  display: flex;
+  width: 93%;
+  margin-left: 4%;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  height: 20%;
+}
+.thridcontentstroke {
+  width: 93%;
+  margin: auto;
+  border-color: rgba(199, 198, 198, 0.848);
+}
+.textfor3 {
+  width: 80%;
+}
+.firststrokeflex {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 3%;
+}
+.mainstat2 {
+  background-color: blue;
+  width: 93%;
+  height: 27%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  margin-left: 2%;
+  padding-left: 20px;
+  position: relative;
+  bottom: 10px;
+  align-items: start;
+  justify-content: center;
+}
+.mainstat21 {
+  font-size: 25px;
+}
+.thirdcontenttable {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  height: 100%;
+}
+.tablefor {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 3%;
+}
+
+td {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: rgb(171, 170, 170);
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.coloredTr {
+  color: rgb(37, 165, 177);
+}
+.foot1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+}
+.foot11{display: flex;
+color: black;
+font-weight: 700;
+gap: 25%;}
