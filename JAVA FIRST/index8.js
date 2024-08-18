@@ -1,0 +1,6 @@
+const first = prompt('Укажите число ваших средств')
+const sec = prompt('Укажите цену одного шоколада')
+let third = (first % sec )
+let fourthaAbsolout = (first / sec )
+let fourth =(Math.floor(fourthaAbsolout))
+alert((' вы купили ')+ fourth + (' ваша сдача ')+ third)
