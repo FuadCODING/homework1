@@ -220,3 +220,6 @@ li:hover {
   }
   .listfor{left: 0px;}
 }
+@media (max-width:1100px) {
+  .rightcontent,.leftcontent{min-width: 800px;}
+}
