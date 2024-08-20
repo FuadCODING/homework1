@@ -1,6 +1,8 @@
-@media (min-width:1300px){  .hidden {
+@media (min-width: 1300px) {
+  .hidden {
     display: none;
-  }}
+  }
+}
 @media (max-width: 1300px) {
   .firstcontent {
     flex-direction: column;
@@ -32,12 +34,18 @@
     display: none;
   }
   .hidden {
-    display:block;
+    display: block;
   }
 }
-@media (max-width: 950px) {.seccontent
-{flex-direction: column;
-height: 50%;gap: 50px;
-}
-.firstgraph,.secgraph,.thirdgraph{width: 750px;}
+@media (max-width: 950px) {
+  .seccontent {
+    flex-direction: column;
+    height: 50%;
+    gap: 50px;
+  }
+  .firstgraph,
+  .secgraph,
+  .thirdgraph {
+    width: 750px;
+  }
 }
