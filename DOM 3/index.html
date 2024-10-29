@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Товары</h1>
+    <div id="goods-container"></div>
+
+    <h2>Добавить товар</h2>
+    <input type="text" id="name" placeholder="Название товара">
+    <input type="number" id="price" placeholder="Цена товара" min="0">
+    <button onclick="addGood()">Добавить</button>
+
+    <h2>Фильтр по цене</h2>
+    <input type="number" id="min-price" placeholder="Минимальная цена" min="0">
+    <input type="number" id="max-price" placeholder="Максимальная цена" min="0">
+    <button onclick="filterGoods()">Фильтровать</button>
+    <script src="index.js"></script>
+</body>
+</html>
