@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .filter {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Товары</h1>
+    
+    <div class="filter">
+        <label for="from">Цена от:</label>
+        <input type="number" id="from" placeholder="Минимальная цена">
+        
+        <label for="to">Цена до:</label>
+        <input type="number" id="to" placeholder="Максимальная цена">
+        
+        <button id="filter-btn">Применить фильтр</button>
+    </div>
+
+    <div id="product-list"></div>
+    <script src="index.js"></script>
+</body>
+</html>
