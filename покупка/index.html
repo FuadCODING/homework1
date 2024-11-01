@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <h1>Магазин автомобилей</h1>
+
+  <label for="ford-model">Выберите модель Ford:</label>
+  <select id="ford-model"></select>
+
+  <label for="mbv-model">Выберите модель MBV:</label>
+  <select id="mbv-model"></select>
+
+  <h2>Дополнительные опции:</h2>
+
+  <label>
+    <input type="checkbox" class="option" data-price="5000"> Подвеска (5000 руб.)
+  </label><br>
+
+  <label>
+    <input type="checkbox" class="option" data-price="2000"> Чехол (2000 руб.)
+  </label><br>
+
+  <label>
+    <input type="checkbox" class="option" data-price="3000"> Диски (3000 руб.)
+  </label><br>
+
+  <label>
+    <input type="checkbox" class="option" data-price="1500"> Тонировка (1500 руб.)
+  </label><br>
+
+  <h3>Общая стоимость:</h3>
+  <span id="total-price">0</span> руб.
+
+  <button id="buy-button">Купить</button>
+</body>
+</html>
