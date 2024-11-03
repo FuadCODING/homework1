@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Интерьер</h1>
+            <nav>
+                <a href="#">Каталог</a>
+                <a href="cart.html">Корзина</a> 
+                <a href="#" id="cart-icon" onclick="toggleCart()">🛒</a> 
+            </nav>
+        </header>
+
+        <main>
+            <div class="filter">
+                <label for="sort">Порядок:</label>
+                <select id="sort">
+                    <option value="asc">сверху дешевле</option>
+                    <option value="desc">сверху дороже</option>
+                </select>
+            </div>
+
+            <section class="catalog" id="catalog"></section>
+
+            
+            <div class="cart-popup" id="cart-popup">
+                <h2>Корзина</h2>
+                <div id="cart-items"></div>
+                <p class="total" id="total">Итого: 0 руб.</p>
+                <button onclick="clearCart()">Очистить корзину</button>
+            </div>
+        </main>
+
+    </div>
+
+    <script src="catalog.js"></script>
+</body>
+</html>

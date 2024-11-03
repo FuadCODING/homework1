@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Интерьер.</h1>
+            <nav>
+                <a href="index.html">Каталог</a>
+                <a href="#">Корзина</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="cart">
+                <h2>Корзина</h2>
+                <div id="cart-items">
+                </div>
+
+                <div class="cart-actions">
+                    <button onclick="clearCart()">Очистить корзину</button>
+                    <button class="continue" onclick="continueShopping()">Продолжить покупки</button>
+                </div>
+            </section>
+
+            <aside class="order-summary">
+                <h2>Оформление заказа</h2>
+                <form onsubmit="submitOrder(event)">
+                    <label for="name">Имя Фамилия</label>
+                    <input type="text" id="name" required>
+
+                    <label for="phone">Телефон</label>
+                    <input type="tel" id="phone" required>
+
+                    <label for="address">Адрес доставки</label>
+                    <input type="text" id="address" required>
+
+                    <p class="total" id="total">Итого: 0 руб.</p>
+                    
+                    <button type="submit" class="order-button">Оформить заказ</button>
+                </form>
+            </aside>
+        </main>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
