@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// Компонент ServicesItem
 const ServicesItem = ({ headerName, text, price, active }) => {
   return (
     <div
@@ -24,7 +23,6 @@ const ServicesItem = ({ headerName, text, price, active }) => {
   );
 };
 
-// Список объектов с данными
 const servicesData = [
   { headerName: "Service A", text: "Description of Service A", price: 100, active: true },
   { headerName: "Service B", text: "Description of Service B", price: 200, active: false },
@@ -34,7 +32,6 @@ const servicesData = [
   { headerName: "Service F", text: "Description of Service F", price: 600, active: false },
 ];
 
-// Главный компонент App
 const App = () => {
   return (
     <div style={{ padding: "20px" }}>
